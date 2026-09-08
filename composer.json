@@ -1,0 +1,25 @@
+{
+    "name": "potter/definition-aggregate",
+    "type": "library",
+    "require": {
+        "league/container": "^5.2.0",
+        "php": "^8.5.10",
+        "potter/container-aware": "^0.0.1",
+        "potter/iterator-aggregate": "^0.0.1"
+        
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Potter\\Container\\": "src/Potter/Container/"
+        }
+    },
+    "homepage": "https://github.com/potter-container/DefinitionAggregate",
+    "authors": [
+        {
+            "name": "Jay Potter",
+            "email": "j@ypotter.ca"
+        }
+    ],
+    "minimum-stability": "stable"
+}
